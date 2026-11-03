@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Sona Vorn — IT Student & Aspiring Network & Cybersecurity Analyst</title>
+<meta name="description" content="Sona Vorn — Information Technology student with practical experience in networking, CCTV systems, troubleshooting, web development and growing cybersecurity knowledge.">
+<link rel="canonical" href="https://sonavorn.github.io/">
+<meta name="author" content="Sona Vorn">
+<meta name="color-scheme" content="light dark">
+
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Sona Vorn Portfolio">
+<meta property="og:title" content="Sona Vorn — IT Student & Aspiring Network & Cybersecurity Analyst">
+<meta property="og:description" content="Practical experience in networking, CCTV systems and troubleshooting, with growing skills in web development and cybersecurity.">
+<meta property="og:url" content="https://sonavorn.github.io/">
+<meta property="og:image" content="https://sonavorn.github.io/assets/images/preview.jpg">
+<meta property="og:image:type" content="image/jpeg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Sona Vorn portfolio preview">
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Sona Vorn — IT Student & Aspiring Network & Cybersecurity Analyst">
+<meta name="twitter:description" content="Networking, CCTV systems, web development and growing cybersecurity knowledge.">
+<meta name="twitter:image" content="https://sonavorn.github.io/assets/images/preview.jpg">
+<meta name="theme-color" content="#177D73">
+  
+<script>
+  (function () {
+    const saved = localStorage.getItem("sv-theme");
+    const prefersDark = window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches;
+    document.documentElement.setAttribute("data-theme", saved || (prefersDark ? "dark" : "light"));
+  })();
+</script>
+<link rel="icon" type="image/png" href="assets/images/favicon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="assets/css/style.css">
+<noscript><style>.reveal{opacity:1;transform:none}</style></noscript>
+</head>
+
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+<div class="scroll-progress" id="scrollProgress"></div>
+
+<header>
+  <div class="nav-wrap">
+    <a href="#home" class="logo" aria-label="Sona Vorn home">
+       <img src="assets/images/logo.png" alt="Sona Vorn" class="logo-img" width="36" height="36">
+      <span>Sona Vorn</span>
+    </a>
+
+    <div class="nav-right">
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+      <nav aria-label="Primary navigation">
+        <ul id="navList">
+          <li><a href="#home" class="active">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <button class="theme-toggle" id="themeToggle" aria-label="Toggle light and dark mode">
+        <span class="knob">
+          <svg id="themeIcon" viewBox="0 0 24 24"></svg>
+        </span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+  <!-- HERO -->
+  <section class="hero" id="home">
+    <div class="hero-inner">
+      <div class="status reveal"><span class="status-dot"></span> Open to learning, projects & opportunities</div>
+      <div class="eyebrow reveal">Information Technology Portfolio</div>
+      <h1 class="reveal">Hi, I'm <span>Sona</span></h1>
+      <div class="role reveal" aria-label="Information Technology Student and aspiring Network and Cybersecurity Analyst">
+        <span id="typingText">Information Technology Student</span><span class="typing-cursor" aria-hidden="true">|</span>
+      </div>
+      <p class="desc reveal">
+        I combine practical experience in <strong>networking, CCTV systems and technical troubleshooting</strong>
+        with growing skills in <strong>web development and cybersecurity</strong>.
+      </p>
+
+      <div class="btn-row reveal">
+        <a href="#projects" class="btn btn-primary">View Projects <span aria-hidden="true">→</span></a>
+        <a href="#about" class="btn btn-ghost">About Me</a>
+        <a href="assets/docs/Sona-Vorn.pdf" class="btn btn-ghost" download>Download Resume</a>
+      </div>
+
+      <div class="hero-panels reveal">
+        <div class="hero-panel">
+          <h3>Current focus</h3>
+          <div class="console">
+            <div><span class="prompt">$</span> profile <strong>Sona Vorn</strong></div>
+            <div><span class="prompt">$</span> focus <strong>Networking · Cybersecurity · Web Development</strong></div>
+            <div><span class="prompt">$</span> approach <strong>Learn → Build → Test → Improve</strong></div>
+            <div><span class="prompt">$</span> goal <strong>Network & Cybersecurity Analyst</strong></div>
+          </div>
+        </div>
+
+        <div class="hero-panel">
+          <h3>At a glance</h3>
+          <div class="mini-stats">
+            <div class="mini-stat"><strong>3+</strong><span>Years of CCTV(Hikvision) / network-related practical work</span></div>
+            <div class="mini-stat"><strong>3</strong><span>Main technical areas of interest</span></div>
+            <div class="mini-stat"><strong>2026</strong><span>Diploma of IT currently in progress</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="signal-divider"><svg viewBox="0 0 1180 28" preserveAspectRatio="none"><path d="M0,14 L1180,14"/><path class="active" d="M0,14 L1180,14"/></svg></div>
+
+  <!-- ABOUT -->
+  <section id="about">
+    <div class="inner">
+      <div class="section-heading reveal">
+        <div class="eyebrow">About</div>
+        <h2 class="section-title">Curiosity became practical experience — then a career direction.</h2>
+      </div>
+
+      <div class="about-layout">
+        <div class="about-copy reveal">
+          <p>
+            I have always been curious about how technology and systems work. From an early age, I enjoyed
+            exploring technology, understanding how different systems functioned, and finding ways to solve
+            technical problems. This curiosity gradually developed into a strong interest in Information Technology.
+          </p>
+
+          <h3>Practical Beginnings</h3>
+          <p>
+            My technical journey began through practical experience rather than formal education. From
+            <strong>January 2023 to May 2026</strong>, I worked independently in CCTV installation, gaining hands-on
+            experience with IP cameras, network cabling, network configuration, and DVR/NVR systems.
+          </p>
+          <p>
+            I particularly enjoyed diagnosing problems, understanding why a system was not functioning correctly,
+            and finding practical solutions. Much of my technical knowledge was initially developed through
+            <strong>self-directed learning</strong>, including online resources, AI-assisted learning,
+            experimentation and practical problem solving.
+          </p>
+
+          <h3>Beginning Web Development</h3>
+          <p>
+            My interest in web development began when I created a digital wedding invitation website for my brother.
+            I continued improving it as the wedding approached, which introduced me to designing, developing and
+            maintaining a real digital project.
+          </p>
+
+          <div class="pull-quote">"I enjoy not only using technology, but also creating practical solutions with it."</div>
+
+          <h3>Why Information Technology?</h3>
+          <p>
+            IT combines the things I enjoy most: understanding systems, solving technical problems, learning new
+            technologies and building practical solutions. My primary areas of interest are
+            <strong>networking, web development and cybersecurity</strong>, with a long-term goal of becoming a
+            professional Network and Cybersecurity Analyst.
+          </p>
+        </div>
+
+        <div class="story-cards reveal">
+          <article class="photo-card card">
+          <img src="assets/images/music.jpg" alt="Band posing with drums and guitars on an outdoor stage" loading="lazy" decoding="async">
+            <div class="cap">
+             <b>Music</b> — Piano · Guitar · Roneat · Kong Vong Toch
+            </div>
+           </article>
+          <article class="photo-card card">
+            <img src="assets/images/football.jpg" alt="EI YA YO Football team group photo" loading="lazy" decoding="async">
+            <div class="cap"><b>Founder & Captain — EI YA YO Football</b><br>Top-three tournament finish in 2024.</div>
+          </article>
+
+          <article class="fact-card card">
+            <div class="k">Current Development</div>
+            <p>
+              Studying a Diploma of Information Technology while strengthening practical knowledge in
+              networking, cybersecurity and web development.
+            </p>
+          </article>
+        </div>
+      </div>
+
+      <div class="edu-grid">
+        <article class="edu-card card reveal">
+          <span class="tag">Current</span>
+          <h4>Diploma of Information Technology</h4>
+          <div class="school">Griffith College</div>
+          <p>Developing skills across networking, cybersecurity, web development and IT systems.</p>
+        </article>
+
+        <article class="edu-card card reveal">
+          <span class="tag">Completed 2025</span>
+          <h4>Foundation Year — International Business Management</h4>
+          <div class="school">Royal University of Phnom Penh</div>
+          <p>Built foundations in communication, teamwork, business concepts and academic skills.</p>
+        </article>
+
+        <article class="edu-card card reveal">
+          <span class="tag">Completed · 8 Aug 2024</span>
+          <h4>High School — Bacii (B)</h4>
+          <div class="school">Hun Sen Tropang Tnout High School</div>
+          <p>Completed upper secondary education before progressing into tertiary study.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <div class="signal-divider"><svg viewBox="0 0 1180 28" preserveAspectRatio="none"><path d="M0,14 L1180,14"/><path class="active" d="M0,14 L1180,14"/></svg></div>
+
+  <!-- SKILLS -->
+  <section id="skills">
+    <div class="inner">
+      <div class="section-heading reveal">
+        <div class="eyebrow">Skills</div>
+        <h2 class="section-title">A mix of hands-on technical experience and developing IT knowledge.</h2>
+        <p class="section-lede">I prefer to show what I can actually do rather than use inflated skill percentages.</p>
+      </div>
+
+      <div class="skills-grid">
+        <article class="skill-card card reveal">
+          <div class="icon-wrap"><svg class="icon" viewBox="0 0 24 24"><polyline points="16 18 22 12 16 6"></polyline><polyline points="8 6 2 12 8 18"></polyline></svg></div>
+          <h3>Web Development</h3>
+          <div class="chip-row">
+            <span class="chip">HTML</span><span class="chip">JavaScript</span>
+            <span class="chip">Git</span><span class="chip">GitHub</span><span class="chip">Responsive Design</span>
+          </div>
+        </article>
+
+        <article class="skill-card card reveal">
+          <div class="icon-wrap"><svg class="icon" viewBox="0 0 24 24"><circle cx="12" cy="12" r="3"></circle><path d="M12 2v7"></path><path d="M12 15v7"></path><path d="M4.2 7.5l6 3.5"></path><path d="M13.8 13l6 3.5"></path><path d="M19.8 7.5l-6 3.5"></path><path d="M10.2 13l-6 3.5"></path></svg></div>
+          <h3>Networking</h3>
+          <div class="chip-row">
+            <span class="chip">IP Addressing</span><span class="chip">Network Configuration</span><span class="chip">Router Configuration</span>
+            <span class="chip">Network Cabling</span><span class="chip">IP Cameras</span><span class="chip">DVR / NVR</span><span class="chip">Troubleshooting</span>
+          </div>
+        </article>
+
+        <article class="skill-card card reveal">
+          <div class="icon-wrap"><svg class="icon" viewBox="0 0 24 24"><path d="M12 2 4 5v6c0 5 3.5 9 8 11 4.5-2 8-6 8-11V5z"></path></svg></div>
+          <h3>Cybersecurity <span style="color:var(--text-muted);font:500 .72rem Inter;">(developing)</span></h3>
+          <div class="chip-row">
+            <span class="chip">Cybersecurity Fundamentals</span><span class="chip">Network Security</span>
+            <span class="chip">System Security</span><span class="chip">Security Awareness</span>
+          </div>
+        </article>
+
+        <article class="skill-card card reveal">
+          <div class="icon-wrap"><svg class="icon" viewBox="0 0 24 24"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M23 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg></div>
+          <h3>Professional Skills</h3>
+          <div class="chip-row">
+            <span class="chip">Problem Solving</span><span class="chip">Communication</span><span class="chip">Teamwork</span>
+            <span class="chip">Leadership</span><span class="chip">Customer Service</span><span class="chip">Time Management</span>
+            <span class="chip">Independent Learning</span><span class="chip">Adaptability</span>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <div class="signal-divider"><svg viewBox="0 0 1180 28" preserveAspectRatio="none"><path d="M0,14 L1180,14"/><path class="active" d="M0,14 L1180,14"/></svg></div>
+
+  <!-- PROJECTS -->
+  <section id="projects">
+    <div class="inner">
+      <div class="section-heading reveal">
+        <div class="eyebrow">Projects</div>
+        <h2 class="section-title">Projects that show how I learn by building.</h2>
+        <p class="section-lede">Each project represents practical experimentation, problem solving, and continued improvement.</p>
+      </div>
+
+      <div class="project-grid">
+        <article class="project-card card reveal">
+          <div class="project-top">
+            <span class="project-index">01 / 03</span>
+            <div class="project-icon"><svg class="icon" viewBox="0 0 24 24"><polyline points="16 18 22 12 16 6"></polyline><polyline points="8 6 2 12 8 18"></polyline></svg></div>
+          </div>
+          <span class="ptag">Web Development</span>
+          <h3>Wedding Invitation Website</h3>
+          <p>Designed and developed a digital wedding invitation website for my brother, then improved and maintained it throughout the preparation period.</p>
+          <div class="chip-row">
+            <span class="chip">HTML</span><span class="chip">CSS</span><span class="chip">JavaScript</span><span class="chip">GitHub</span>
+          </div>
+          <a class="project-link" href="https://sonavorn.github.io/brother-s-wedding/" target="_blank" rel="noopener noreferrer" aria-label="View the Wedding Invitation Website project (opens in a new tab)">View project →</a>
+        </article>
+
+        <article class="project-card card reveal">
+          <div class="project-top">
+            <span class="project-index">02 / 03</span>
+            <div class="project-icon"><svg class="icon" viewBox="0 0 24 24"><path d="M5 12h14"></path><path d="M12 5l7 7-7 7"></path><circle cx="5" cy="12" r="3"></circle></svg></div>
+          </div>
+          <span class="ptag">Networking</span>
+          <h3>IP Camera & Network Setup</h3>
+          <p>Hands-on installation and configuration of CCTV and IP camera systems including cabling, network configuration, DVR/NVR setup, remote access, and troubleshooting.</p>
+          <div class="chip-row">
+            <span class="chip">IP Cameras</span><span class="chip">Networking</span><span class="chip">DVR / NVR</span><span class="chip">Troubleshooting</span>
+          </div>
+          <a class="project-link" href="#experience">View experience →</a>
+        </article>
+
+        <article class="project-card card reveal">
+          <div class="project-top">
+            <span class="project-index">03 / 03</span>
+            <div class="project-icon"><svg class="icon" viewBox="0 0 24 24"><path d="M6 12h4"></path><path d="M8 10v4"></path><path d="M15 13h.01"></path><path d="M18 11h.01"></path><path d="M17.3 5H6.7a4 4 0 0 0-3.9 3.2l-1.6 7.6a2.5 2.5 0 0 0 4.5 1.9L7.5 16h9l1.8 1.7a2.5 2.5 0 0 0 4.5-1.9l-1.6-7.6A4 4 0 0 0 17.3 5z"></path></svg></div>
+          </div>
+          <span class="ptag">Game Development</span>
+          <h3>Grab &amp; Dash Game</h3>
+          <p>A game I designed and developed for a school assessment, taking it from idea to a finished, playable project while applying my programming and problem-solving skills.</p>
+          <div class="chip-row">
+            <span class="chip">Game Development</span><span class="chip">Programming</span><span class="chip">Problem Solving</span><span class="chip">School Assessment</span><span class="chip"> p5js </span>
+          </div>
+          <a class="project-link" href="https://github.com/SonaVorn/MileStone2_V2">View project→</a>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <div class="signal-divider"><svg viewBox="0 0 1180 28" preserveAspectRatio="none"><path d="M0,14 L1180,14"/><path class="active" d="M0,14 L1180,14"/></svg></div>
+
+  <!-- EXPERIENCE -->
+  <section id="experience">
+    <div class="inner">
+      <div class="section-heading reveal">
+        <div class="eyebrow">Experience</div>
+        <h2 class="section-title">Where practical responsibility shaped my skills.</h2>
+      </div>
+
+      <div class="exp-list">
+
+            <article class="exp-item reveal">
+              <div class="exp-time">October 2026 – Present</div>
+              <div class="exp-role">Partner Seasonal Casual</div>
+              <div class="exp-org">UNIQLO Queen Street, Brisbane</div>
+              <p>
+                Support daily retail operations in a fast-paced environment while
+                assisting customers, resolving enquiries, collaborating with team
+                members, and maintaining efficient store operations. Develop
+                communication, teamwork, adaptability, and problem-solving skills.
+              </p>
+              <div class="chip-row">
+                <span class="chip">Teamwork</span>
+                <span class="chip">Communication</span>
+                <span class="chip">Problem Solving</span>
+                <span class="chip">Customer Support</span>
+                <span class="chip">Adaptability</span>
+              </div>
+            </article>
+        
+           <article class="exp-item reveal">
+             <div class="exp-time">2024 – Present</div>
+             <div class="exp-role">Founder & Captain</div>
+             <div class="exp-org">EI YA YO Football</div>
+           <p>
+            Founded and captained a football team that regularly trains and plays together. Helped lead the team to
+            a top-three tournament finish in 2024 while developing leadership, communication, teamwork and
+            decision-making skills.
+          </p>
+          <div class="chip-row">
+            <span class="chip">Leadership</span><span class="chip">Teamwork</span><span class="chip">Communication</span><span class="chip">Decision Making</span>
+          </div>
+        </article>
+
+        <article class="exp-item reveal">
+          <div class="exp-time">January 2023 – May 2026</div>
+          <div class="exp-role">CCTV Installation Technician</div>
+          <div class="exp-org">Self-Employed</div>
+          <p>
+            Provided independent CCTV installation and technical setup services for residential and small-business
+            environments. Work included network cabling, IP camera and DVR/NVR configuration, remote monitoring,
+            camera placement planning, connectivity troubleshooting, and direct customer communication.
+          </p>
+          <div class="chip-row">
+            <span class="chip">Networking</span><span class="chip">IP Cameras</span><span class="chip">Troubleshooting</span>
+            <span class="chip">System Configuration</span><span class="chip">Customer Service</span><span class="chip">Project Management</span>
+          </div>
+        </article>
+
+        <article class="exp-item reveal">
+          <div class="exp-time">Part-Time</div>
+          <div class="exp-role">Barista / Café All-Rounder</div>
+          <div class="exp-org">Customer Service Role</div>
+          <p>
+            Developing professional communication, teamwork, customer-service and time-management skills in a busy
+            café environment while preparing beverages, managing multiple tasks, maintaining quality, and working
+            effectively under pressure.
+          </p>
+          <div class="chip-row">
+            <span class="chip">Customer Service</span><span class="chip">Communication</span><span class="chip">Teamwork</span>
+            <span class="chip">Time Management</span><span class="chip">Multitasking</span>
+          </div>
+        </article>
+
+
+      </div>
+    </div>
+  </section>
+
+  <div class="signal-divider"><svg viewBox="0 0 1180 28" preserveAspectRatio="none"><path d="M0,14 L1180,14"/><path class="active" d="M0,14 L1180,14"/></svg></div>
+
+  <!-- CONTACT -->
+  <section id="contact">
+    <div class="inner">
+      <div class="contact-shell card reveal">
+        <div class="contact-copy">
+          <div class="eyebrow">Contact</div>
+          <h2 class="section-title">Let's connect.</h2>
+          <p>
+            I am interested in learning from professionals, collaborating on technical projects, and exploring
+            opportunities within Information Technology, networking and cybersecurity.
+          </p>
+        </div>
+
+        <div class="contact-grid">
+          <a href="mailto:sonavorn7179@gmail.com" class="contact-card card">
+            <div class="ci"><svg class="icon" viewBox="0 0 24 24"><path d="M22 6 12 13 2 6"></path><rect x="2" y="4" width="20" height="16" rx="2"></rect></svg></div>
+            <div><div class="label">Email</div><div class="value">sonavorn7179@gmail.com</div></div>
+          </a>
+
+          <a href="https://github.com/SonaVorn" class="contact-card card" target="_blank" rel="noopener noreferrer">
+            <div class="ci"><svg class="icon" viewBox="0 0 24 24"><path d="M9 19c-4.3 1.4-4.3-2.5-6-3m12 5v-3.5c0-1 .1-1.4-.5-2 2.8-.3 5.5-1.4 5.5-6a4.6 4.6 0 0 0-1.3-3.2 4.2 4.2 0 0 0-.1-3.2s-1.1-.3-3.5 1.3a12.3 12.3 0 0 0-6.2 0C6.5 2.8 5.4 3.1 5.4 3.1a4.2 4.2 0 0 0-.1 3.2A4.6 4.6 0 0 0 4 9.5c0 4.6 2.7 5.7 5.5 6-.6.6-.6 1.2-.5 2V21"></path></svg></div>
+            <div><div class="label">GitHub</div><div class="value">SonaVorn</div></div>
+          </a>
+
+          <a href="https://www.linkedin.com/in/sona-vorn/" class="contact-card card" target="_blank" rel="noopener noreferrer">
+            <div class="ci"><svg class="icon" viewBox="0 0 24 24"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-4 0v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg></div>
+            <div><div class="label">LinkedIn</div><div class="value">Sona Vorn</div></div>
+          </a>
+
+          <a href="assets/docs/Sona-Vorn.pdf" class="contact-card card" download>
+            <div class="ci"><svg class="icon" viewBox="0 0 24 24"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline></svg></div>
+            <div><div class="label">Resume</div><div class="value">Download Resume</div></div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="footer-inner">
+    <div><strong>Sona Vorn</strong><br>Information Technology Student</div>
+    <div class="footer-quote">Learn. Build. Solve. Improve.</div>
+    <div>© <span id="year"></span> Sona Vorn. All rights reserved.</div>
+  </div>
+</footer>
+
+<button class="back-top" id="backTop" aria-label="Back to top">↑</button>
+
+<button class="chatbot-launcher" id="chatbotLauncher" type="button" aria-label="Open portfolio assistant" aria-controls="chatbotPanel" aria-expanded="false">
+  <span class="chatbot-badge" aria-hidden="true"></span>
+  <svg class="chat-open-icon icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M21 15a4 4 0 0 1-4 4H8l-5 3V7a4 4 0 0 1 4-4h10a4 4 0 0 1 4 4z"></path><path d="M8 9h8"></path><path d="M8 13h5"></path></svg>
+  <span class="chat-close-icon" aria-hidden="true">×</span>
+</button>
+
+<button class="chatbot-greeting" id="chatbotGreeting" type="button" aria-label="Open portfolio assistant">Need help? Ask me!</button>
+
+<aside class="chatbot-panel" id="chatbotPanel" aria-label="Sona's portfolio assistant" aria-hidden="true">
+  <div class="chatbot-header">
+    <div class="chatbot-avatar">
+  <img src="assets/images/gione.png" alt="Gione, the portfolio assistant" width="38" height="38" decoding="async">
+</div>
+    <div>
+      <div class="chatbot-title">Hi! I'm Gione</div>
+      <div class="chatbot-status">Ready to help</div>
+    </div>
+    <button class="chatbot-minimise" id="chatbotMinimise" type="button" aria-label="Close chat">−</button>
+  </div>
+  <div class="chatbot-messages" id="chatbotMessages" role="log" aria-live="polite">
+    <div class="chat-message bot"><div class="chat-bubble">Hi! 👋 I can tell you about Sona's skills, projects, education, experience, or career goals. What would you like to know?</div></div>
+    <div class="chat-quick-replies" id="chatQuickReplies">
+      <button class="chat-quick-reply" type="button" data-question="Who is Sona?">About</button>
+      <button class="chat-quick-reply" type="button" data-question="What are Sona's skills?">Skills</button>
+      <button class="chat-quick-reply" type="button" data-question="Tell me about Sona's projects">Projects</button>
+      <button class="chat-quick-reply" type="button" data-question="What experience does Sona have?">Experience</button>
+      <button class="chat-quick-reply" type="button" data-question="Tell me about Sona's football team">Football</button>
+      <button class="chat-quick-reply" type="button" data-question="How can I contact Sona?">Contact</button>
+      <button class="chat-quick-reply" type="button" data-question="Is Sona single🤪">Relationship?</button>
+    </div>
+  </div>
+  <form class="chatbot-form" id="chatbotForm">
+    <label class="skip-link" for="chatbotInput">Ask about Sona's portfolio</label>
+    <input class="chatbot-input" id="chatbotInput" type="text" maxlength="180" autocomplete="off" placeholder="Ask about skills or projects…" required>
+    <button class="chatbot-send" type="submit" aria-label="Send message">
+      <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="m22 2-7 20-4-9-9-4z"></path><path d="M22 2 11 13"></path></svg>
+    </button>
+  </form>
+</aside>
+
+<script src="assets/js/main.js" defer></script>
+<script src="assets/js/rain.js" defer></script>
+</body>
+</html>
